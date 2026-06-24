@@ -4,7 +4,7 @@
  * Supports: Circle, Rectangle, Line, Triangle
  * Operations: Add, Delete, Modify objects
  *
- * Author: [Your Name]
+ * Author: Mohammad Omar
  * Course: Advanced C Programming
  */
 
