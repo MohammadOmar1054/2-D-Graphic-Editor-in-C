@@ -1,0 +1,16 @@
+CC      = gcc
+CFLAGS  = -Wall -Wextra -std=c99 -pedantic
+LIBS    = -lm
+
+TARGET  = graphics_editor
+SRC     = graphics_editor.c
+
+all: $(TARGET)
+
+$(TARGET): $(SRC)
+	$(CC) $(CFLAGS) -o $(TARGET) $(SRC) $(LIBS)
+
+clean:
+	rm -f $(TARGET) *.o
+
+.PHONY: all clean
